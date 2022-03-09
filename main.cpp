@@ -1,19 +1,16 @@
 #include <iostream>
 using namespace std;
-int main(){
-    int  n;
+ 
+ 
+ 
+ int main(){
+     int n;
     cin>>n;
-    for( int i =0;i<n;i++){
-        int l = i+1;
-    for(int j = 0;j<i:j++){
-        
-        for(int k =0;k<n-j;k++){
-            cout<<" ";
-        }
-        for(int o =0;o <j;o++){
-            cout<<i;
-        }
+    int A[10000];
+    for(int i=0;i<n;i=i+1){
+     cin>>A[i];
     }
-    cout<<endl;
+    for (int j=0;j<n;j=j+2){
+        cout<<A[j]<<endl;
     }
-}
+ }
